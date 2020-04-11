@@ -1,13 +1,30 @@
-#nav-bar{
-    position: fixed;
+body{
+  background-color: #deeaee;
+  margin-left: 100px
 }
 
-@media (max-width:500px){
+@media (max-width:750px){
     h1{
         font-style: italic;
     }
+  }
+nav{
+    position: fixed;
+    padding:20px 10px 20px 10px;
+    background-color: #b1cbbb;
+    width: 1000px
 }
-
-body{
-    background-color: cornflowerblue;
+div{
+  margin-top: 100px;
+  width: 1000px
+}
+nav>a{
+  background-color: #b1cbbb;
+  padding:20px 10px 20px 10px;
+  text-decoration: none;
+}
+.flex-container {
+  margin-top: 10px
+  display: flex;
+  flex-direction: column;
 }
