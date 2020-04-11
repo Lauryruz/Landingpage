@@ -1,0 +1,13 @@
+#nav-bar{
+    position: fixed;
+}
+
+@media (max-width:500px){
+    h1{
+        font-style: italic;
+    }
+}
+
+body{
+    background-color: cornflowerblue;
+}
